@@ -93,6 +93,31 @@ Therefore, the findings should be interpreted as **exploratory strategic insight
 
 ---
 
+## Repository Structure
+
+```
+lundbeck-market-analysis
+│
+└── lundbeck-market-analysis
+    ├── data
+    │   ├── dalys_clean.csv
+    │   ├── ddd_clean.csv
+    │   ├── ppp_sales_clean.csv
+    │   ├── lundbeck_2023_revenue_table.csv
+    │   └── lundbeck_2024_revenue_table.csv
+    │
+    ├── notebooks
+    │   ├── data_cleaning.ipynb
+    │   └── market_analysis_notebook.ipynb
+    │
+    └── sql
+        ├── 01_data_validation.sql
+        ├── 02_dalys_by_country.sql
+        ├── 03_regional_dalys_comparison.sql
+        ├── 04_avg_consumption.sql
+        ├── 05_dalys_vs_consumption.sql
+        └── 06_market_landscape.sql
+```
 
 ---
 
